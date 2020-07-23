@@ -1,0 +1,6 @@
+framework module Pods_ScrollableCardView_ScrollableCardViewUITests {
+  umbrella header "Pods-ScrollableCardView-ScrollableCardViewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

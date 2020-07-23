@@ -10,6 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func didTapButton(_ sender: UIButton) {
+        let vc = ScrollableViewController(
+            popViewHeight: 600,
+            popupOffset: 0,
+            childViewController: ViewController()
+        )
+        vc.titleLabel.text = "Test"
+        vc.modalPresentationStyle = .overFullScreen
+        vc.canDrag = true
+        show(vc, sender: nil)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

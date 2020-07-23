@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ScrollableCardView_ScrollableCardViewUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ScrollableCardView_ScrollableCardViewUITests
+@end

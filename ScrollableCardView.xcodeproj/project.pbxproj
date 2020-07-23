@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15BA29AF0E98982FDC86EB5C /* Pods_ScrollableCardViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691645B013454F4D371B3E5F /* Pods_ScrollableCardViewTests.framework */; };
+		1A0072F5A3C1A1277CBED74B /* Pods_ScrollableCardView_ScrollableCardViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C54B1D6046891B3033415F /* Pods_ScrollableCardView_ScrollableCardViewUITests.framework */; };
 		C494FEA424C977D800615852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494FEA324C977D800615852 /* AppDelegate.swift */; };
 		C494FEA624C977D800615852 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494FEA524C977D800615852 /* SceneDelegate.swift */; };
 		C494FEA824C977D800615852 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494FEA724C977D800615852 /* ViewController.swift */; };
@@ -15,6 +17,10 @@
 		C494FEB024C977DB00615852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C494FEAE24C977DB00615852 /* LaunchScreen.storyboard */; };
 		C494FEBB24C977DB00615852 /* ScrollableCardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494FEBA24C977DB00615852 /* ScrollableCardViewTests.swift */; };
 		C494FEC624C977DB00615852 /* ScrollableCardViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494FEC524C977DB00615852 /* ScrollableCardViewUITests.swift */; };
+		C494FED524C9784A00615852 /* ScrollableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494FED324C9784A00615852 /* ScrollableViewController.swift */; };
+		C494FED624C9784A00615852 /* ScrollableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C494FED424C9784A00615852 /* ScrollableViewController.xib */; };
+		C494FED924C9787600615852 /* Declarative.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494FED824C9787600615852 /* Declarative.swift */; };
+		DC7709BBDDC3BAEFD3583BFB /* Pods_ScrollableCardView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB065B15DF8F377A22FE060D /* Pods_ScrollableCardView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43C54B1D6046891B3033415F /* Pods_ScrollableCardView_ScrollableCardViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableCardView_ScrollableCardViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59030AB4BC42A99D63B9E789 /* Pods-ScrollableCardView-ScrollableCardViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableCardView-ScrollableCardViewUITests.release.xcconfig"; path = "Target Support Files/Pods-ScrollableCardView-ScrollableCardViewUITests/Pods-ScrollableCardView-ScrollableCardViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		691645B013454F4D371B3E5F /* Pods_ScrollableCardViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableCardViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6931EDA1D18A43BED799D853 /* Pods-ScrollableCardViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableCardViewTests.release.xcconfig"; path = "Target Support Files/Pods-ScrollableCardViewTests/Pods-ScrollableCardViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		699BA10ED3BB517545A15289 /* Pods-ScrollableCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableCardView.debug.xcconfig"; path = "Target Support Files/Pods-ScrollableCardView/Pods-ScrollableCardView.debug.xcconfig"; sourceTree = "<group>"; };
+		6D20BE8D2FA141A539752423 /* Pods-ScrollableCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableCardView.release.xcconfig"; path = "Target Support Files/Pods-ScrollableCardView/Pods-ScrollableCardView.release.xcconfig"; sourceTree = "<group>"; };
+		82643043FBB60494AD322C20 /* Pods-ScrollableCardView-ScrollableCardViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableCardView-ScrollableCardViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollableCardView-ScrollableCardViewUITests/Pods-ScrollableCardView-ScrollableCardViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7C6072B19E4D1A065D68CEA /* Pods-ScrollableCardViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableCardViewTests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollableCardViewTests/Pods-ScrollableCardViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB065B15DF8F377A22FE060D /* Pods_ScrollableCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C494FEA024C977D800615852 /* ScrollableCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C494FEA324C977D800615852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C494FEA524C977D800615852 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		C494FEC124C977DB00615852 /* ScrollableCardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableCardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C494FEC524C977DB00615852 /* ScrollableCardViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableCardViewUITests.swift; sourceTree = "<group>"; };
 		C494FEC724C977DB00615852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C494FED324C9784A00615852 /* ScrollableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableViewController.swift; sourceTree = "<group>"; };
+		C494FED424C9784A00615852 /* ScrollableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollableViewController.xib; sourceTree = "<group>"; };
+		C494FED824C9787600615852 /* Declarative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Declarative.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7709BBDDC3BAEFD3583BFB /* Pods_ScrollableCardView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BA29AF0E98982FDC86EB5C /* Pods_ScrollableCardViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0072F5A3C1A1277CBED74B /* Pods_ScrollableCardView_ScrollableCardViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D69BB508D6FC404E0AE6426 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				699BA10ED3BB517545A15289 /* Pods-ScrollableCardView.debug.xcconfig */,
+				6D20BE8D2FA141A539752423 /* Pods-ScrollableCardView.release.xcconfig */,
+				82643043FBB60494AD322C20 /* Pods-ScrollableCardView-ScrollableCardViewUITests.debug.xcconfig */,
+				59030AB4BC42A99D63B9E789 /* Pods-ScrollableCardView-ScrollableCardViewUITests.release.xcconfig */,
+				A7C6072B19E4D1A065D68CEA /* Pods-ScrollableCardViewTests.debug.xcconfig */,
+				6931EDA1D18A43BED799D853 /* Pods-ScrollableCardViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B637D78A5C7DAFB3A3CD1BBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB065B15DF8F377A22FE060D /* Pods_ScrollableCardView.framework */,
+				43C54B1D6046891B3033415F /* Pods_ScrollableCardView_ScrollableCardViewUITests.framework */,
+				691645B013454F4D371B3E5F /* Pods_ScrollableCardViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C494FE9724C977D800615852 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +128,8 @@
 				C494FEB924C977DB00615852 /* ScrollableCardViewTests */,
 				C494FEC424C977DB00615852 /* ScrollableCardViewUITests */,
 				C494FEA124C977D800615852 /* Products */,
+				3D69BB508D6FC404E0AE6426 /* Pods */,
+				B637D78A5C7DAFB3A3CD1BBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +149,8 @@
 				C494FEA324C977D800615852 /* AppDelegate.swift */,
 				C494FEA524C977D800615852 /* SceneDelegate.swift */,
 				C494FEA724C977D800615852 /* ViewController.swift */,
+				C494FED824C9787600615852 /* Declarative.swift */,
+				C494FED724C9785100615852 /* Scrollable VC */,
 				C494FEA924C977D800615852 /* Main.storyboard */,
 				C494FEAC24C977DB00615852 /* Assets.xcassets */,
 				C494FEAE24C977DB00615852 /* LaunchScreen.storyboard */,
@@ -128,6 +177,15 @@
 			path = ScrollableCardViewUITests;
 			sourceTree = "<group>";
 		};
+		C494FED724C9785100615852 /* Scrollable VC */ = {
+			isa = PBXGroup;
+			children = (
+				C494FED324C9784A00615852 /* ScrollableViewController.swift */,
+				C494FED424C9784A00615852 /* ScrollableViewController.xib */,
+			);
+			path = "Scrollable VC";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C494FECA24C977DB00615852 /* Build configuration list for PBXNativeTarget "ScrollableCardView" */;
 			buildPhases = (
+				0DB9538B703C33D370CFAE82 /* [CP] Check Pods Manifest.lock */,
 				C494FE9C24C977D800615852 /* Sources */,
 				C494FE9D24C977D800615852 /* Frameworks */,
 				C494FE9E24C977D800615852 /* Resources */,
+				552AA10CB00CB20C15E3E8BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C494FECD24C977DB00615852 /* Build configuration list for PBXNativeTarget "ScrollableCardViewTests" */;
 			buildPhases = (
+				BDE94B8644B4D0724AC1D877 /* [CP] Check Pods Manifest.lock */,
 				C494FEB224C977DB00615852 /* Sources */,
 				C494FEB324C977DB00615852 /* Frameworks */,
 				C494FEB424C977DB00615852 /* Resources */,
@@ -170,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C494FED024C977DB00615852 /* Build configuration list for PBXNativeTarget "ScrollableCardViewUITests" */;
 			buildPhases = (
+				8502B9414E08358988EDBD89 /* [CP] Check Pods Manifest.lock */,
 				C494FEBD24C977DB00615852 /* Sources */,
 				C494FEBE24C977DB00615852 /* Frameworks */,
 				C494FEBF24C977DB00615852 /* Resources */,
+				85A8A53D95938292A812E4D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +298,7 @@
 				C494FEB024C977DB00615852 /* LaunchScreen.storyboard in Resources */,
 				C494FEAD24C977DB00615852 /* Assets.xcassets in Resources */,
 				C494FEAB24C977D800615852 /* Main.storyboard in Resources */,
+				C494FED624C9784A00615852 /* ScrollableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +318,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DB9538B703C33D370CFAE82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollableCardView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		552AA10CB00CB20C15E3E8BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableCardView/Pods-ScrollableCardView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableCardView/Pods-ScrollableCardView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScrollableCardView/Pods-ScrollableCardView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8502B9414E08358988EDBD89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollableCardView-ScrollableCardViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85A8A53D95938292A812E4D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableCardView-ScrollableCardViewUITests/Pods-ScrollableCardView-ScrollableCardViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollableCardView-ScrollableCardViewUITests/Pods-ScrollableCardView-ScrollableCardViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScrollableCardView-ScrollableCardViewUITests/Pods-ScrollableCardView-ScrollableCardViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE94B8644B4D0724AC1D877 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollableCardViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C494FE9C24C977D800615852 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C494FED924C9787600615852 /* Declarative.swift in Sources */,
 				C494FEA824C977D800615852 /* ViewController.swift in Sources */,
 				C494FEA424C977D800615852 /* AppDelegate.swift in Sources */,
 				C494FEA624C977D800615852 /* SceneDelegate.swift in Sources */,
+				C494FED524C9784A00615852 /* ScrollableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +601,7 @@
 		};
 		C494FECB24C977DB00615852 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699BA10ED3BB517545A15289 /* Pods-ScrollableCardView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +620,7 @@
 		};
 		C494FECC24C977DB00615852 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D20BE8D2FA141A539752423 /* Pods-ScrollableCardView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +639,7 @@
 		};
 		C494FECE24C977DB00615852 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C6072B19E4D1A065D68CEA /* Pods-ScrollableCardViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +662,7 @@
 		};
 		C494FECF24C977DB00615852 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6931EDA1D18A43BED799D853 /* Pods-ScrollableCardViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +685,7 @@
 		};
 		C494FED124C977DB00615852 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82643043FBB60494AD322C20 /* Pods-ScrollableCardView-ScrollableCardViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +706,7 @@
 		};
 		C494FED224C977DB00615852 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59030AB4BC42A99D63B9E789 /* Pods-ScrollableCardView-ScrollableCardViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
